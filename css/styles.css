@@ -97,10 +97,7 @@ body {
 
 .header_nav_list {
   list-style: none;
-  /*padding-bottom: 32px;
-  padding-top: 32px;*/
-
-  /*геометрия*/
+                   /*геометрия*/
   display: flex;
   width: 281px;
   gap: 50px;
@@ -115,13 +112,15 @@ body {
   text-decoration: none;
 
   /*геометрия*/
-    padding-bottom: 32px;
+  padding-bottom: 32px;
   padding-top: 32px;
 }
 
 .header_nav_link:hover,
 .header_nav_link:focus {
   color: var(--brand-color);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 .header_nav_list .header_nav_link{
@@ -182,6 +181,8 @@ body {
 .header_link_mail:hover,
 .header_link_mail:focus, .header_icon {
   fill : currentColor;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 .header_link_tel {
@@ -203,10 +204,14 @@ body {
 .header_link_tel:hover,
 .header_link_tel:focus {
   color: var(--brand-color);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 .header_link_tel:hover,
 .header_link_mail:focus, .header_icon_tel {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
   fill: currentColor;
 }
 
@@ -422,9 +427,13 @@ height: 70px;
 .com_soc_link:hover,
 .com_soc_link:focus {
   background-color: var(--brand-color);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 .com_soc_link:hover,
 .com_soc_link:focus .com_soc_icon {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
   fill: var(--white); 
 }
 
@@ -433,7 +442,7 @@ height: 70px;
   padding-top: 30px;
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -506,9 +515,13 @@ height: 70px;
 .clients_link:hover,
 .clients_link:focus {
   border-color: var(--brand-color);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 .clients_link:hover .clients_icon{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
   fill: var(--brand-color);
 }
 
@@ -526,10 +539,8 @@ height: 70px;
 .footer_container {
   align-items: baseline;
  display: flex;
-
-  
-
 }
+
 .footer_logo {
   display: block;
   margin-bottom: 20px;
@@ -563,6 +574,8 @@ height: 70px;
 .footer_address:hover,
 .footer_address:focus {
   color: var(--brand-color);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 .footer_tel {
@@ -578,6 +591,8 @@ height: 70px;
 .footer_tel:hover,
 .footer_tel:focus {
   color: var(--brand-color);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 .footer_mail {
@@ -592,6 +607,8 @@ height: 70px;
 .footer_mail:hover,
 .footer_mail:focus {
   color: var(--brand-color);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 
@@ -601,12 +618,7 @@ height: 70px;
   width: 206px;
   height: 80px;
   margin-left: 70px;
-  
-
-  
 }
-
-
 
 .footer_soc_title{
 font-weight: 700;
@@ -615,7 +627,6 @@ line-height: 1.1428;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--white);
-
 }
 
 
@@ -646,9 +657,13 @@ color: var(--white);
 .fut_soc_link:hover,
 .fut_soc_link:focus {
   background-color: var(--brand-color);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 .fut_soc_link:hover,
 .fut_soc_link:focus .com_soc_icon {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
   fill: var(--white);
 }
 
@@ -717,8 +732,12 @@ color: var(--white);
 
 .pic_link:hover{  
   display: block;
-   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);}
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;  
+  }
+
 
 .border_pic {
   border: 1px solid var(--gray_1);
