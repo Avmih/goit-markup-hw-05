@@ -39,7 +39,13 @@
     <section class="first-page">
         <div class="container  first_page_container ">
             <h1 class="first_page_title">Ефективні рішення для<p> вашого бізнесу</p></h1>
-             <button type="button" class="first-page-button"> Замовити послугу </button>
+             <button type="button" class="first-page-button" data-modal-open> Замовити послугу </button>
+             <div class="backdrop is-hidden" data-modal >
+                <div class="modal"> 
+                    <button type="button" class="modal_button" data-modal-close> <svg class="modal_icon">
+                        <use href="./img/icons.svg#icon-modal_icon"></use></svg></button>
+                </div>
+             </div>
         </div>
     </section>
 
@@ -236,7 +242,7 @@
     </div>
     
 </footer>
-<script src="./js/modal.js"></script>
+<script src="./modal.js"></script>
 </body>
 </html>
 
