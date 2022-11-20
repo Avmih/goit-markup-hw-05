@@ -123,6 +123,7 @@ ul {
   color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
+  transition-property: color;
 }
 
 .header_nav_list .header_nav_link{
@@ -185,6 +186,7 @@ ul {
   fill : currentColor;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
+  transition-property: color;
 }
 
 .header_link_tel {
@@ -208,6 +210,7 @@ ul {
   color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
+  transition-property: color;
 }
 
 .header_link_tel:hover,
@@ -215,6 +218,7 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
   fill: currentColor;
+  transition-property: color;
 }
 
 .first-page {
@@ -276,6 +280,7 @@ background-color: rgba(0, 0, 0, 0.2);
 opacity: 1;
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 z-index: 1;
+transition-property: color;
 }
 
 .backdrop.is-hidden{
@@ -303,6 +308,7 @@ opacity: 1;
  
  transform: translate(-50% -50%) scale(1);
  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
  
 }
 
@@ -530,12 +536,14 @@ opacity: 0.8;
   background-color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
+  transition-property: color;
 }
 .com_soc_link:hover,
 .com_soc_link:focus .com_soc_icon {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
   fill: var(--white); 
+  transition-property: color;
 }
 
 .team_text {
@@ -617,12 +625,14 @@ opacity: 0.8;
   border-color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
+  transition-property: color;
 }
 
 .clients_link:hover .clients_icon{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
   fill: var(--brand-color);
+  transition-property: color;
 }
 
 
@@ -676,6 +686,7 @@ opacity: 0.8;
   color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
+  transition-property: color;
 }
 
 .footer_tel {
@@ -693,6 +704,7 @@ opacity: 0.8;
   color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
+  transition-property: color;
 }
 
 .footer_mail {
@@ -709,6 +721,7 @@ opacity: 0.8;
   color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
+  transition-property: color;
 }
 
 
@@ -759,12 +772,14 @@ color: var(--white);
   background-color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
+  transition-property: color;
 }
 .fut_soc_link:hover,
 .fut_soc_link:focus .com_soc_icon {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms;
   fill: var(--white);
+  transition-property: color;
 }
 
 
@@ -836,6 +851,7 @@ color: var(--white);
   1px 4px 6px rgba(0, 0, 0, 0.16);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms; 
+  transition-property: color;
     
 }
 
@@ -852,6 +868,7 @@ transform: translateY(100%);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 opacity:0.9;
 transition: 250ms; 
+transition-property: color;
 }
 
  .pic_link:hover .text_section{
