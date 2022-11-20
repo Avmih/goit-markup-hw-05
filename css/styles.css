@@ -68,8 +68,6 @@ ul {
 }
 
 .header {
-  /*padding-top: 24px;
-  padding-bottom: 24px;*/
   display: flex;
   border-bottom: 1px solid var(--gray_1);
 }
@@ -447,8 +445,12 @@ height: 70px;
 
 .work-foto-list {
   width: calc((100% - 60px) / 3);
-  position: relative;
 
+
+}
+
+.work-foto{
+ position: relative;
 }
 
 .foto_description{
