@@ -221,7 +221,7 @@ ul {
 .header_link_tel:hover,
 .header_link_mail:focus, .header_icon_tel {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+
   fill: currentColor;
 
 }
@@ -543,6 +543,7 @@ opacity: 0.8;
 .com_soc_link:focus {
   background-color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
   
   
 }
@@ -550,6 +551,7 @@ opacity: 0.8;
 .com_soc_link:focus .com_soc_icon {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--white); 
+  
  
 }
 
@@ -727,13 +729,14 @@ transition: 250ms;
   text-decoration: none;
   font-style: normal;
   transition-property: color;
+  transition: 250ms;
   
 }
 .footer_mail:hover,
 .footer_mail:focus {
   color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+  
 }
 
 
@@ -775,21 +778,22 @@ color: var(--white);
   justify-content: center;
   align-items: center;
   fill: var(--white);
-transition-property: color;
+  transition-property: color;
   background-color:var(--icon_futter);
+   transition: 250ms;
+   
 }
 
 .fut_soc_link:hover,
 .fut_soc_link:focus {
   background-color: var(--brand-color);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+ 
   
 }
 .fut_soc_link:hover,
 .fut_soc_link:focus .com_soc_icon {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
   fill: var(--white);
 
 }
@@ -870,6 +874,7 @@ transition-property: color;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
   
  
     
