@@ -853,9 +853,10 @@ color: var(--white);
 }
 
 .pic_link{
-  transition-property: color;
+  transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   
 }
 
@@ -878,6 +879,7 @@ transform: translateY(100%);
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-duration: 250ms;
 opacity:0.9;
+transition-property:transform;
 
 }
 
