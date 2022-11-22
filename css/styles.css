@@ -283,6 +283,7 @@ background-color: rgba(0, 0, 0, 0.2);
 opacity: 1;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition: opacity;
 z-index: 1;
 
 
@@ -314,8 +315,6 @@ opacity: 1;
  transform: translate(-50% -50%) scale(1);
  transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
- 
 }
 
 
@@ -329,9 +328,6 @@ opacity: 1;
   margin-left: 490px;
   margin-top: 8px;
   cursor: pointer;
-
- 
-  
 }
 
 .modal_icon{
@@ -342,8 +338,6 @@ opacity: 1;
   align-items: center;
   fill: var(--black);
   padding: 6px;
-  
-
 }
 
 
@@ -862,6 +856,7 @@ color: var(--white);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .pic_link:hover{  
